@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Zilla+Slab:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,9 +16,10 @@ a {
 :root {
   --titColor: #111;
   --bodyColor: #555;
+  --borderColor: #bbb;
   --pointColor: orangered;
   --titFont: "Nanum Myeongjo", "serif", "명조";
-  --bodyFont: "Noto Sans KR", "arial", "돋움";
+  --bodyFont: "Zilla Slab", "arial", "돋움";
 }
 
 html {
@@ -44,7 +45,7 @@ main section {
 }
 main section .box {
   padding: 20px;
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid var(--borderColor);
   display: flex;
   flex: wrap;
   justify-content: space-between;

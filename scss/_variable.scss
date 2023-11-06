@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Zilla+Slab:wght@300&display=swap');
 :root {
 	--titColor: #111;
 	--bodyColor: #555;
+	--borderColor: #bbb;
 	--pointColor: orangered;
 	--titFont: 'Nanum Myeongjo', 'serif', '명조';
-	--bodyFont: 'Noto Sans KR', 'arial', '돋움';
+	--bodyFont: 'Zilla Slab', 'arial', '돋움';
 }
 html {
 	font-size: 16px;
