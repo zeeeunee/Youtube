@@ -33,21 +33,28 @@ main h1 {
   width: 100%;
   font-size: 4rem;
   font-weight: normal;
+  font-family: var(--titFont);
+  color: var(--titColor);
 }
 main section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  font-family: var(--bodyFont);
 }
 main section .box {
   padding: 20px;
+  border-bottom: 1px solid #bbb;
   display: flex;
   flex: wrap;
   justify-content: space-between;
 }
+main section .box:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
 main section .box h2 {
   width: 30%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: normal;
 }
 main section .box div {
@@ -56,6 +63,12 @@ main section .box div {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
+}
+main section .box div p {
+  color: var(--bodyColor);
+}
+main section .box div span {
+  color: var(--pointColor);
 }
 main section .box .pic {
   width: 30%;
