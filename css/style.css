@@ -16,6 +16,7 @@ a {
 :root {
   --titColor: #111;
   --bodyColor: #555;
+  --borderColor: #bbb;
   --pointColor: orangered;
   --titFont: "Nanum Myeongjo", "serif", "명조";
   --bodyFont: "Noto Sans KR", "arial", "돋움";
@@ -31,10 +32,14 @@ main {
 }
 main h1 {
   width: 100%;
-  font-size: 4rem;
+  font-size: 3.6rem;
   font-weight: normal;
   font-family: var(--titFont);
   color: var(--titColor);
+  transition: 1s;
+}
+main h1:hover {
+  color: #bbb;
 }
 main section {
   width: 100%;
@@ -44,7 +49,7 @@ main section {
 }
 main section .box {
   padding: 20px;
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid var(--borderColor);
   display: flex;
   flex: wrap;
   justify-content: space-between;
