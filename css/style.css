@@ -32,7 +32,7 @@ main {
 }
 main h1 {
   width: 100%;
-  font-size: 4rem;
+  font-size: 3.6rem;
   font-weight: normal;
   font-family: var(--titFont);
   color: var(--titColor);
