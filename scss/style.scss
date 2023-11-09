@@ -6,15 +6,28 @@ main {
 	margin: 20px auto;
 
 	h1 {
-		width: 100%;
+		width: 70vw;
+		margin-top: 20px;
 		font-size: 4rem;
 		font-weight: normal;
 		font-family: var(--titFont);
-		color: var(--titColor);
+		color: #fff;
+		position: absolute;
+		left: 25%;
+		top: 0;
+	}
+
+	&:hover {
+		h1 {
+			color: var(--titColor);
+			left: 15%;
+			transition: 0.5s;
+		}
 	}
 
 	section {
 		width: 100%;
+		margin-top: 90px;
 		display: flex;
 		flex-wrap: wrap;
 		font-family: var(--bodyFont);
@@ -75,6 +88,12 @@ main {
 			font-size: 3.6rem;
 		}
 
+		&:hover {
+			h1 {
+				left: 90px;
+			}
+		}
+
 		section {
 			.box {
 				padding: 10px;
@@ -111,6 +130,12 @@ main {
 
 		h1 {
 			font-size: 3rem;
+		}
+
+		&:hover {
+			h1 {
+				left: 50px;
+			}
 		}
 
 		section {
