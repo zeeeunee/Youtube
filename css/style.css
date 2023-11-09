@@ -42,7 +42,7 @@ main h1 {
 }
 main:hover h1 {
   color: var(--titColor);
-  left: 15%;
+  left: 16%;
   transition: 0.5s;
 }
 main section {
@@ -96,10 +96,11 @@ main section .box .pic img {
     width: 80vw;
   }
   main h1 {
+    width: 80vw;
     font-size: 3.6rem;
   }
   main:hover h1 {
-    left: 90px;
+    left: 12%;
   }
   main section .box {
     padding: 10px;
@@ -131,7 +132,7 @@ main section .box .pic img {
     font-size: 3rem;
   }
   main:hover h1 {
-    left: 50px;
+    left: 12%;
   }
   main section .box {
     padding: 10px;
